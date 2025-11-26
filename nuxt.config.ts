@@ -3,7 +3,7 @@ import tailwindcss from '@tailwindcss/vite';
 
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
-  devtools: { enabled: true },
+  devtools: { enabled: false },
   css: ["./app/tailwind.css"],
   modules: ['@nuxtjs/supabase', '@vant/nuxt'],
   supabase: {
@@ -15,7 +15,7 @@ export default defineNuxtConfig({
     plugins: [tailwindcss()]
   },
   //ssr: true, // 是否开启服务端渲染,默认 true 开启
-  // routeRules: {
+  routeRules: {
     
-  // },
+  },
 })

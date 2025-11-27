@@ -1,6 +1,6 @@
 <template>
     <div>
-        <MainHeaderBack></MainHeaderBack>
+        <!-- <MainHeaderBack></MainHeaderBack> -->
         <div class=" bg-red-50 aspect-video">img</div>
         <div class=" bg-sky-100">
             <h1>文章页</h1>
